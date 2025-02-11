@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=exemplo
-Exec=com.exemplo.exemplo %F
-Icon=com.exemplo.exemplo
-Categories=Utility;
-Comment=Descrição curta...
-StartupWMClass=exemplo
-X-AppImage-Version=0.1.0

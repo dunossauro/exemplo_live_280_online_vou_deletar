@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=exemplo
-Exec=/usr/bin/exemplo %F
-Icon=com.exemplo.exemplo
-Categories=Utility;
-Comment=Descrição curta...
