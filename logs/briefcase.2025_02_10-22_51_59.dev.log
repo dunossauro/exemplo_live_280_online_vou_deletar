@@ -1,0 +1,267 @@
+Date/Time:       2025-02-10 22:51:59 
+Command line:    /home/dunossauro/.local/bin/briefcase dev
+
+OS Release:      Linux 6.12.10-arch1-1
+OS Version:      #1 SMP PREEMPT_DYNAMIC Sat, 18 Jan 2025 02:26:57 +0000
+Architecture:    x86_64
+Platform:        Linux-6.12.10-arch1-1-x86_64-with-glibc2.40
+
+Python exe:      /home/dunossauro/.local/share/pipx/venvs/briefcase/bin/python
+Python version:  3.13.1 (main, Dec  4 2024, 21:33:31) [GCC 14.2.1 20240910]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.22
+Target platform: linux
+Target format:   None
+
+Environment Variables:
+	BASH_IT=/home/dunossauro/.bash_it
+	BASH_IT_THEME=bobby-python
+	BROWSER=firefox
+	CLICOLOR=256
+	CUDA_PATH=/opt/cuda
+	DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+	DEBUGINFOD_URLS=https://debuginfod.archlinux.org 
+	DESKTOP_SESSION=i3
+	DESKTOP_STARTUP_ID=i3/rofi/2460-10-melville_TIME2345626
+	DISPLAY=:0
+	EDITOR=nano
+	EMACS_VTERM_PATH=/home/dunossauro/.emacs.d/elpa/vterm-20241218.331/
+	GDMSESSION=i3
+	GDM_LANG=en_US.UTF-8
+	GITDIR=/home/dunossauro/git
+	GOOGLE_API_KEY=********************
+	GTK3_MODULES=xapp-gtk3-module
+	GTK_MODULES=canberra-gtk-module
+	HOME=/home/dunossauro
+	I3SOCK=/run/user/1000/i3/ipc-socket.2460
+	INSIDE_EMACS=vterm
+	LANG=en_US.UTF-8
+	LC_ADDRESS=pt_BR.UTF-8
+	LC_IDENTIFICATION=pt_BR.UTF-8
+	LC_MEASUREMENT=pt_BR.UTF-8
+	LC_MONETARY=pt_BR.UTF-8
+	LC_NAME=pt_BR.UTF-8
+	LC_NUMERIC=pt_BR.UTF-8
+	LC_PAPER=pt_BR.UTF-8
+	LC_TELEPHONE=pt_BR.UTF-8
+	LC_TIME=pt_BR.UTF-8
+	LOGNAME=dunossauro
+	MAIL=/var/spool/mail/dunossauro
+	MOTD_SHOWN=pam
+	NVCC_CCBIN=/usr/bin/g++-13
+	OLDPWD=/home/dunossauro/Live_280/exemplo/exemplo
+	PATH=/home/dunossauro/Live_280/exemplo/.venv/bin:/home/dunossauro/.local/bin:/home/dunossauro/.pyenv/shims:/home/dunossauro/.pyenv/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/opt/cuda/bin:/opt/cuda/nsight_compute:/opt/cuda/nsight_systems/bin:/home/dunossauro/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/dunossauro/.local/bin
+	PIPEWIRE_LATENCY=128/48000
+	PS1=\n\[\e[0;33m\] |.venv|py-3.13.1 \[\e[0;35m\]\h \[\e[39m\]in \[\e[0;32m\]\w\n\[\e[36;1m\]○\[\e[0;32m\] \[\e[0;32m\]→\[\e[39m\] 
+	PWD=/home/dunossauro/Live_280/exemplo
+	PYENV_ROOT=/home/dunossauro/.pyenv
+	PYENV_SHELL=bash
+	PYPI_PASSWORD=********************
+	PYPI_USERNAME=z4r4tu5tr4
+	PYTHON_CONFIGURE_OPTS=--enable-shared
+	PYTHON_KEYRING_BACKEND=********************
+	SHELL=/bin/bash
+	SHLVL=1
+	TERM=xterm-256color
+	TERMINAL=xfce4-terminal
+	THEME_SHOW_PYTHON=true
+	USER=dunossauro
+	USERNAME=dunossauro
+	VIRTUAL_ENV=/home/dunossauro/Live_280/exemplo/.venv
+	VIRTUAL_ENV_PROMPT=exemplo-py3.13
+	WINDOWPATH=2
+	XAUTHORITY=/run/user/1000/gdm/Xauthority
+	XDG_CURRENT_DESKTOP=i3
+	XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/flatpak/exports/share:/home/dunossauro/.local/share/flatpak/exports/share
+	XDG_RUNTIME_DIR=/run/user/1000
+	XDG_SEAT=seat0
+	XDG_SESSION_CLASS=user
+	XDG_SESSION_DESKTOP=i3
+	XDG_SESSION_ID=3
+	XDG_SESSION_TYPE=x11
+	XDG_VTNR=2
+	YOUTUBE_CHANNEL_ID=UCAaKeg-BocRqphErdtIUFFw
+	_=/home/dunossauro/.local/bin/briefcase
+	_printf_cmd=printf
+
+pyproject.toml:
+[project]
+name = "exemplo"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+license = {file = 'LICENSE'}
+dependencies = [
+    "cyclopts (>=3.7.0,<4.0.0)"
+]
+
+
+[tool.briefcase]
+project_name = "Exemplo"
+bundle = "com.exemplo"
+
+
+[tool.briefcase.app.exemplo]
+description = "Descrição curta..."
+long_description = "Descrição longa..."
+sources = ['exemplo']  # ['src/exemplo']
+test_sources = ['tests']
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+Briefcase Log:
+[22:51:57]                                                                                                                                                                dev.py:241
+           [exemplo] Installing requirements...                                                                                                                           dev.py:241
+           Installing dev requirements... started                                                                                                                          dev.py:89
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     /home/dunossauro/.local/share/pipx/venvs/briefcase/bin/python -u -X utf8 -m pip install --upgrade 'cyclopts (>=3.7.0,<4.0.0)'                   subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/dunossauro/Live_280/exemplo                                                                                                               subprocess.py:838
+[22:51:59] Collecting cyclopts<4.0.0,>=3.7.0                                                                                                                       subprocess.py:195
+             Using cached cyclopts-3.7.0-py3-none-any.whl.metadata (11 kB)                                                                                         subprocess.py:195
+           Requirement already satisfied: attrs>=23.1.0 in /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages (from                   subprocess.py:195
+           cyclopts<4.0.0,>=3.7.0) (25.1.0)                                                                                                                                         
+           Requirement already satisfied: docstring-parser>=0.15 in /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages (from          subprocess.py:195
+           cyclopts<4.0.0,>=3.7.0) (0.16)                                                                                                                                           
+           Requirement already satisfied: rich>=13.6.0 in /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages (from                    subprocess.py:195
+           cyclopts<4.0.0,>=3.7.0) (13.9.4)                                                                                                                                         
+           Requirement already satisfied: rich-rst<2.0.0,>=1.3.1 in /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages (from          subprocess.py:195
+           cyclopts<4.0.0,>=3.7.0) (1.3.1)                                                                                                                                          
+           Requirement already satisfied: markdown-it-py>=2.2.0 in /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages (from           subprocess.py:195
+           rich>=13.6.0->cyclopts<4.0.0,>=3.7.0) (3.0.0)                                                                                                                            
+           Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages (from         subprocess.py:195
+           rich>=13.6.0->cyclopts<4.0.0,>=3.7.0) (2.19.1)                                                                                                                           
+           Requirement already satisfied: docutils in /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages (from                        subprocess.py:195
+           rich-rst<2.0.0,>=1.3.1->cyclopts<4.0.0,>=3.7.0) (0.21.2)                                                                                                                 
+           Requirement already satisfied: mdurl~=0.1 in /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages (from                      subprocess.py:195
+           markdown-it-py>=2.2.0->rich>=13.6.0->cyclopts<4.0.0,>=3.7.0) (0.1.2)                                                                                                     
+           Using cached cyclopts-3.7.0-py3-none-any.whl (75 kB)                                                                                                    subprocess.py:195
+           Installing collected packages: cyclopts                                                                                                                 subprocess.py:195
+             Attempting uninstall: cyclopts                                                                                                                        subprocess.py:195
+               Found existing installation: cyclopts 3.6.0                                                                                                         subprocess.py:195
+               Uninstalling cyclopts-3.6.0:                                                                                                                        subprocess.py:195
+                 Successfully uninstalled cyclopts-3.6.0                                                                                                           subprocess.py:195
+           Successfully installed cyclopts-3.7.0                                                                                                                   subprocess.py:195
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           Installing dev requirements... done                                                                                                                             dev.py:89
+                                                                                                                                                                          dev.py:251
+           [exemplo] Starting in dev mode...                                                                                                                              dev.py:251
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     /home/dunossauro/.local/share/pipx/venvs/briefcase/bin/python -c 'import runpy,                                                                 subprocess.py:838
+           sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("exemplo", run_name="__main__", alter_sys=True)'                                                                
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/dunossauro                                                                                                                                subprocess.py:838
+           >>> Environment Overrides:                                                                                                                              subprocess.py:838
+           >>>     PYTHONPATH=/home/dunossauro/Live_280/exemplo                                                                                                    subprocess.py:838
+           >>>     PYTHONUNBUFFERED=1                                                                                                                              subprocess.py:838
+           >>>     PYTHONDEVMODE=1                                                                                                                                 subprocess.py:838
+           >>>     PYTHONUTF8=1                                                                                                                                    subprocess.py:838
+           ===========================================================================                                                                                    run.py:171
+           ╭─ Error ──────────────────────────────────────────────────────────────────────╮                                                                        subprocess.py:195
+           │ Parameter "--nome" requires an argument.                                     │                                                                        subprocess.py:195
+           ╰──────────────────────────────────────────────────────────────────────────────╯                                                                        subprocess.py:195
+                                                                                                                                                                      __main__.py:42
+           Problem running app exemplo.                                                                                                                               __main__.py:43
+           Saving log... started                                                                                                                                      console.py:432
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages/briefcase/__main__.py:27 in main                                                                 │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                      │
+│ │       command = <briefcase.commands.dev.DevCommand object at 0x7c21eabc78c0>                                            │                                                      │
+│ │       console = <briefcase.console.Console object at 0x7c21eabc6510>                                                    │                                                      │
+│ │             e = BriefcaseCommandError('Problem running app exemplo.')                                                   │                                                      │
+│ │ extra_cmdline = []                                                                                                      │                                                      │
+│ │       options = {'appname': None, 'update_requirements': False, 'run_app': True, 'test_mode': False, 'passthrough': []} │                                                      │
+│ │     overrides = {}                                                                                                      │                                                      │
+│ │        result = 200                                                                                                     │                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                      │
+│                                                                                                                                                                                  │
+│ /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages/briefcase/commands/dev.py:253 in __call__                                                        │
+│                                                                                                                                                                                  │
+│   250 │   │   │   else:                                                                                                                                                          │
+│   251 │   │   │   │   self.console.info("Starting in dev mode...", prefix=app.app_name)                                                                                          │
+│   252 │   │   │   env = self.get_environment(app, test_mode=test_mode)                                                                                                           │
+│ ❱ 253 │   │   │   return self.run_dev_app(                                                                                                                                       │
+│   254 │   │   │   │   app,                                                                                                                                                       │
+│   255 │   │   │   │   env,                                                                                                                                                       │
+│   256 │   │   │   │   test_mode=test_mode,                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────╮                                  │
+│ │                 app = <com.exemplo.exemplo v0.1.0 AppConfig>                                                                                │                                  │
+│ │             appname = None                                                                                                                  │                                  │
+│ │      dist_info_path = PosixPath('/home/dunossauro/Live_280/exemplo/exemplo.dist-info')                                                      │                                  │
+│ │                 env = {'PYTHONPATH': '/home/dunossauro/Live_280/exemplo', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'} │                                  │
+│ │             options = {}                                                                                                                    │                                  │
+│ │         passthrough = []                                                                                                                    │                                  │
+│ │             run_app = True                                                                                                                  │                                  │
+│ │                self = <briefcase.commands.dev.DevCommand object at 0x7c21eabc78c0>                                                          │                                  │
+│ │           test_mode = False                                                                                                                 │                                  │
+│ │ update_requirements = False                                                                                                                 │                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                  │
+│                                                                                                                                                                                  │
+│ /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages/briefcase/commands/dev.py:170 in run_dev_app                                                     │
+│                                                                                                                                                                                  │
+│   167 │   │   │   )                                                                                                                                                              │
+│   168 │   │   │                                                                                                                                                                  │
+│   169 │   │   │   # Start streaming logs for the app.                                                                                                                            │
+│ ❱ 170 │   │   │   self._stream_app_logs(                                                                                                                                         │
+│   171 │   │   │   │   app,                                                                                                                                                       │
+│   172 │   │   │   │   popen=app_popen,                                                                                                                                           │
+│   173 │   │   │   │   test_mode=test_mode,                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │         app = <com.exemplo.exemplo v0.1.0 AppConfig>                                                                                                                         │ │
+│ │   app_popen = <Popen: returncode: 1 args: ['/home/dunossauro/.local/share/pipx/venvs/brief...>                                                                               │ │
+│ │     cmdline = ['/home/dunossauro/.local/share/pipx/venvs/briefcase/bin/python', '-c', 'import runpy, sys;sys.path.pop(0);sys.argv.extend([]);runpy.run_module("exemplo"'+38] │ │
+│ │         env = {'PYTHONPATH': '/home/dunossauro/Live_280/exemplo', 'PYTHONUNBUFFERED': '1', 'PYTHONDEVMODE': '1', 'PYTHONUTF8': '1'}                                          │ │
+│ │ main_module = 'exemplo'                                                                                                                                                      │ │
+│ │     options = {}                                                                                                                                                             │ │
+│ │ passthrough = []                                                                                                                                                             │ │
+│ │        self = <briefcase.commands.dev.DevCommand object at 0x7c21eabc78c0>                                                                                                   │ │
+│ │   test_mode = False                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /home/dunossauro/.local/share/pipx/venvs/briefcase/lib/python3.13/site-packages/briefcase/commands/run.py:202 in _stream_app_logs                                                │
+│                                                                                                                                                                                  │
+│   199 │   │   │   │   # If we're monitoring an actual app (not just a log stream),                                                                                               │
+│   200 │   │   │   │   # and the app didn't exit cleanly, surface the error to the user.                                                                                          │
+│   201 │   │   │   │   if popen.poll() != 0:                                                                                                                                      │
+│ ❱ 202 │   │   │   │   │   raise BriefcaseCommandError(f"Problem running app {app.app_name}.")                                                                                    │
+│   203 │   │                                                                                                                                                                      │
+│   204 │   │   except KeyboardInterrupt:                                                                                                                                          │
+│   205 │   │   │   pass  # Catch CTRL-C to exit normally                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                              │
+│ │          app = <com.exemplo.exemplo v0.1.0 AppConfig>                                           │                                                                              │
+│ │ clean_filter = None                                                                             │                                                                              │
+│ │ clean_output = False                                                                            │                                                                              │
+│ │   log_filter = <briefcase.commands.run.LogFilter object at 0x7c21eab04d70>                      │                                                                              │
+│ │   log_stream = False                                                                            │                                                                              │
+│ │        popen = <Popen: returncode: 1 args: ['/home/dunossauro/.local/share/pipx/venvs/brief...> │                                                                              │
+│ │         self = <briefcase.commands.dev.DevCommand object at 0x7c21eabc78c0>                     │                                                                              │
+│ │    test_mode = False                                                                            │                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Problem running app exemplo.

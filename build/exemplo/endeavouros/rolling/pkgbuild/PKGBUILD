@@ -1,0 +1,17 @@
+# Maintainer: Your Name <you@example.com>
+export PACKAGER="Your Name <you@example.com>"
+pkgname=exemplo
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Descrição curta..."
+arch=('x86_64')
+url="None"
+license=('Unknown')
+depends=('glibc>=2.40' 'python3')
+changelog=CHANGELOG
+source=("$pkgname-$pkgver.tar.gz")
+md5sums=('SKIP')
+options=('!strip')
+package() {
+    cp -r "$srcdir/$pkgname-$pkgver/usr/" "$pkgdir"/usr/
+}

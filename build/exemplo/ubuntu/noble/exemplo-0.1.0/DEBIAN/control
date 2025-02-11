@@ -1,0 +1,10 @@
+Package: exemplo
+Version: 0.1.0
+Architecture: amd64
+Maintainer: Your Name <you@example.com>
+Homepage: None
+Description: Descrição curta...
+ Descrição longa...
+Depends: libc6 (>=2.39), libpython3.12
+Section: utils
+Priority: optional

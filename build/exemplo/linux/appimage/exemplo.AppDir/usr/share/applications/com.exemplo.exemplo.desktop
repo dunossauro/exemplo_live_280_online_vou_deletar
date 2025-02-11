@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=exemplo
+Exec=com.exemplo.exemplo %F
+Icon=com.exemplo.exemplo
+Categories=Utility;
+Comment=Descrição curta...
+StartupWMClass=exemplo

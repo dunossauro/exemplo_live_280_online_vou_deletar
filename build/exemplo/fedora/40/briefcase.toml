@@ -1,0 +1,12 @@
+# Generated using Briefcase 0.3.22 for fedora:40, Python 3
+[paths]
+app_path = "exemplo-0.1.0/usr/lib64/exemplo/app"
+app_packages_path = "exemplo-0.1.0/usr/lib64/exemplo/app_packages"
+
+icon.16 = "exemplo-0.1.0/usr/share/icons/hicolor/16x16/apps/com.exemplo.exemplo.png"
+icon.32 = "exemplo-0.1.0/usr/share/icons/hicolor/32x32/apps/com.exemplo.exemplo.png"
+icon.64 = "exemplo-0.1.0/usr/share/icons/hicolor/64x64/apps/com.exemplo.exemplo.png"
+icon.128 = "exemplo-0.1.0/usr/share/icons/hicolor/128x128/apps/com.exemplo.exemplo.png"
+icon.256 = "exemplo-0.1.0/usr/share/icons/hicolor/256x256/apps/com.exemplo.exemplo.png"
+icon.512 = "exemplo-0.1.0/usr/share/icons/hicolor/512x512/apps/com.exemplo.exemplo.png"
+# icon.scalable = "exemplo-0.1.0/usr/share/icons/hicolor/scalable/apps/com.exemplo.exemplo.png"
